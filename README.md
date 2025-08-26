@@ -26,7 +26,7 @@ Add the library dependency to your build.gradle file.
 
 ```gradle
 dependencies {
-    implementation 'com.github.woheller69:FreeDroidWarn:-SNAPSHOT'
+    implementation 'com.github.woheller69:FreeDroidWarn:V1.2'
 }
 ```
 
