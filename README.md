@@ -4,6 +4,9 @@
 
 This library shows a deprecation warning because Google will require developer verification for Android apps outside the Play Store from 2026/2027 which the developer is not going to provide.
 
+
+    Google has announced that, starting in 2026/2027, all apps on certified Android devices will require the developer to submit personal identity details directly to Google. Since I do not agree to this requirement, this app will no longer work on certified Android devices after that time
+
 https://www.androidauthority.com/android-developer-verification-requirements-3590911/
 
 https://developer.android.com/developer-verification
