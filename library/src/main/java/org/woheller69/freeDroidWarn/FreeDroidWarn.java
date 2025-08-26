@@ -28,7 +28,7 @@ public class FreeDroidWarn {
         }
     }
 
-    static void showWarningOnUpgrade(Context context, int buildVersion){
+    public static void showWarningOnUpgrade(Context context, int buildVersion){
         if (shouldShowWarningDialog(context,buildVersion)){
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
             alertDialogBuilder.setMessage(R.string.dialog_Warning).setIcon(R.drawable.ic_warning);
