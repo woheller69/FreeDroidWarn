@@ -14,7 +14,7 @@ public class FreeDroidWarn {
         SharedPreferences prefManager = PreferenceManager.getDefaultSharedPreferences(context);
         int versionCode = prefManager.getInt("versionCodeWarn",0);
 
-        if (prefManager.contains("versionCodeWarn") && buildVersion>versionCode){
+        if (buildVersion > versionCode){
             SharedPreferences.Editor editor = prefManager.edit();
             editor.putInt("versionCodeWarn", buildVersion);
             editor.apply();
@@ -30,7 +30,7 @@ public class FreeDroidWarn {
     public static void showWarningOnUpgrade(Context context, int buildVersion){
         if (shouldShowWarningDialog(context,buildVersion)){
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-            alertDialogBuilder.setTitle("").setMessage(R.string.dialog_Warning).setIcon(R.drawable.ic_warning);
+            alertDialogBuilder.setMessage(R.string.dialog_Warning);
             alertDialogBuilder.setPositiveButton(context.getString(R.string.dialog_more_info), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.android.com/developer-verification"))));
             alertDialogBuilder.setNegativeButton(context.getString(android.R.string.ok), (dialog, which) -> {
             });
