@@ -2,7 +2,7 @@
 
 ### Overview
 
-This library shows a deprecation warning because Google will require developer verification for Android apps outside the Play Store from 2026/2027 which the developer is not going to provide.
+This library shows an alert dialog with a deprecation warning informing that Google will require developer verification for Android apps outside the Play Store from 2026/2027 which the developer is not going to provide.
 
 
  ```
