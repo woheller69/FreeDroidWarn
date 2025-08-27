@@ -1,0 +1,4 @@
+<resources>
+    <string name="dialog_Warning">Google은 2026/2027년부터 인증된 Android 기기에서 모든 앱이 개발자가 본인의 개인 신원 정보를 Google에 직접 제출해야 한다고 발표했습니다. 이 앱의 개발자들은 해당 요구 사항에 동의하지 않으므로, 이 앱은 그 시점 이후 인증된 Android 기기에서 더 이상 작동하지 않습니다.</string>
+    <string name="dialog_more_info">자세히</string>
+</resources>

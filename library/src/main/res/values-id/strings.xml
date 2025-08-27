@@ -1,0 +1,4 @@
+<resources>
+    <string name="dialog_Warning">Google telah mengumumkan bahwa mulai tahun 2026/2027, semua aplikasi pada perangkat Android bersertifikat akan mewajibkan pengembang untuk menyerahkan data identitas pribadi mereka langsung ke Google. Karena pengembang aplikasi ini tidak setuju dengan persyaratan tersebut, aplikasi ini tidak akan berfungsi lagi pada perangkat Android bersertifikat setelah waktu itu.</string>
+    <string name="dialog_more_info">Detail</string>
+</resources>

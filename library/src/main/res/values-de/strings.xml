@@ -1,0 +1,4 @@
+<resources>
+    <string name="dialog_Warning">Google hat angekündigt, dass ab 2026/2027 alle Apps auf zertifizierten Android-Geräten nur noch funktionieren, wenn die Entwickler ihre persönlichen Identitätsdaten direkt an Google übermitteln. Da die Entwickler dieser App dieser Anforderung nicht zustimmen, wird diese App ab diesem Zeitpunkt auf zertifizierten Android-Geräten nicht mehr funktionieren.</string>
+    <string name="dialog_more_info">Details</string>
+</resources>

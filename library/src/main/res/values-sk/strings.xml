@@ -1,0 +1,4 @@
+<resources>
+    <string name="dialog_Warning">Google oznámil, že od roku 2026/2027 budú všetky aplikácie na certifikovaných zariadeniach s Androidom vyžadovať, aby vývojári odovzdali svoje osobné identifikačné údaje priamo Googlu. Keďže vývojári tejto aplikácie s touto požiadavkou nesúhlasia, aplikácia po tomto termíne na certifikovaných zariadeniach s Androidom prestane fungovať.</string>
+    <string name="dialog_more_info">Podrobnosti</string>
+</resources>

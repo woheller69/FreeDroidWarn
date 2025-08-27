@@ -8,8 +8,8 @@ This library shows a deprecation warning because Google will require developer v
  ```
 Google has announced that, starting in 2026/2027, all apps on certified Android devices
 will require the developer to submit personal identity details directly to Google.
-Since I do not agree to this requirement, this app will no longer work on certified
-Android devices after that time
+Since the developers of this app do not agree to this requirement, this app will no longer 
+work on certified Android devices after that time.
 ```
 
 https://www.androidauthority.com/android-developer-verification-requirements-3590911/
@@ -34,7 +34,7 @@ Add the library dependency to your build.gradle file.
 
 ```gradle
 dependencies {
-    implementation 'com.github.woheller69:FreeDroidWarn:V1.2'
+    implementation 'com.github.woheller69:FreeDroidWarn:V1.3'
 }
 ```
 

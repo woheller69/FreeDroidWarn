@@ -1,0 +1,4 @@
+<resources>
+    <string name="dialog_Warning">A Google bejelentette, hogy 2026/2027-től minden alkalmazás a hitelesített Android-eszközökön meg fogja követelni, hogy a fejlesztők személyes azonosító adataikat közvetlenül a Google-nek adják át. Mivel ennek az alkalmazásnak a fejlesztői nem értenek egyet ezzel a követelménnyel, az alkalmazás ezen időpont után nem fog működni a hitelesített Android-eszközökön.</string>
+    <string name="dialog_more_info">Részletek</string>
+</resources>
