@@ -50,6 +50,6 @@ In onCreate of your app just add:
 
 ### License
 
-This library is licensed under the Apache V2.0.
+This library is licensed under the Apache V2.0 license.
 
 

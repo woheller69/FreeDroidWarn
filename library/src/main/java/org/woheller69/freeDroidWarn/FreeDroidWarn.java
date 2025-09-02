@@ -13,18 +13,11 @@ public class FreeDroidWarn {
     static boolean shouldShowWarningDialog(Context context, int buildVersion) {
         SharedPreferences prefManager = PreferenceManager.getDefaultSharedPreferences(context);
         int versionCode = prefManager.getInt("versionCodeWarn",0);
+        SharedPreferences.Editor editor = prefManager.edit();
+        editor.putInt("versionCodeWarn", buildVersion);
+        editor.apply();
 
-        if (buildVersion > versionCode){
-            SharedPreferences.Editor editor = prefManager.edit();
-            editor.putInt("versionCodeWarn", buildVersion);
-            editor.apply();
-            return true;
-        } else {
-            SharedPreferences.Editor editor = prefManager.edit();
-            editor.putInt("versionCodeWarn", buildVersion);
-            editor.apply();
-            return false;
-        }
+        return buildVersion > versionCode;
     }
 
     public static void showWarningOnUpgrade(Context context, int buildVersion){
