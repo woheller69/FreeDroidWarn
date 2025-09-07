@@ -16,6 +16,19 @@ https://www.androidauthority.com/android-developer-verification-requirements-359
 
 https://developer.android.com/developer-verification
 
+Some arguments:
+
+Requiring developers to submit personal identity details to Google in order for their apps to run on certified Android devices represents a serious attack on fundamental digital rights:
+
+Developer privacy – Individual developers and small teams should not be forced to hand over government IDs or sensitive documents to a multinational corporation. Many developers value their privacy for legitimate personal, political, or security reasons.
+
+The right to use my own device – As a user, I should be free to run the software of my choice on my phone. Blocking applications that do not meet Google’s new requirements is a restriction on device ownership and digital freedom.
+
+Free and open-source software ecosystems – Many FOSS projects are developed by volunteers who will not (and often cannot) provide identity documents. This policy risks removing an enormous amount of valuable free software from certified Android devices.
+
+Developer safety – In some countries, linking real-world identities to developers of privacy tools, political apps, or security software can put them in danger. This requirement could actively harm people.
+
+Adaptation and forking of open-source programs – One of the most important freedoms of open-source software is the ability to fork and adapt programs to personal or local needs. Today, I can simply fork an app, add a translation, build it, and install it on my device. Under the new rules, any fork would require a new package ID — which in turn would force the developer to register with Google and provide personal identity details. This creates a bureaucratic and privacy-invasive barrier to the most basic use of open-source: improving, localizing, and customizing software.
 
 ### Installation
 
