@@ -36,11 +36,11 @@ Google confirmed that ADB will also work in future.
 
 #### Set up ADB on your device
 
-In Android settings find and tap the Build Number option seven times until you see the message You are now a developer! This enables developer options on your device.
+    In Android settings find and tap the Build Number option seven times until you see the message You are now a developer! This enables developer options on your device.
 
-Return to the previous screen to find Developer options at the bottom.
+    Return to the previous screen to find Developer options at the bottom.
 
-Now enable USB debugging in Developer options.
+    Now enable USB debugging in Developer options.
 
 #### Download ADB for PC (Windows) 
 
@@ -50,15 +50,19 @@ https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/AdbWinUsbApi.dll?r
 
 https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/adb.exe?raw=true
 
-and the desired apk file, e.g. from F-Droid
+and the desired apk file, e.g. from F-Droid. Everything should be in your PC's Downloads folder.
 
-#### Connect phone to USB and type
+#### Connect phone to USB and install app
 
-Type "cmd" in Windows search box and click "open"
+    Set USB options on phone to file transfer
 
-Type "cd %userprofile%\downloads"
+    Type "cmd" in Windows search box and click "open"
 
-Type "adb install your.apk"
+    Type "cd %userprofile%\downloads"
+
+    Type "adb install your.apk"
+
+    Check confirmation box on phone and agree if asked
 
 Your app will be installed
 
