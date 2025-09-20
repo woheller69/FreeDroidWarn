@@ -66,6 +66,8 @@ and the desired apk file, e.g. from F-Droid. Everything should be in your PC's D
 
 Your app will be installed
 
+    Optional: Switch off USB debugging until you need it again
+
 ### Installation of the library in your Android project
 
 Add the JitPack repository to your root build.gradle at the end of repositories:
