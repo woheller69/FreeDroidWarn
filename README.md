@@ -61,7 +61,7 @@ and the desired apk file, e.g. from F-Droid. Everything should be in your PC's D
     - Type "cd %userprofile%\downloads"
     - Type "adb install your.apk"
 
-Your app will be installed
+Your app will be installed 🚀
 
     Optional (Recommended): Switch off USB debugging in Developer Options until you need it again
 
