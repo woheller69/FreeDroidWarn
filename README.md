@@ -32,13 +32,16 @@ Adaptation and forking of open-source programs – One of the most important fre
 
 ### Workaround
 
-Google confirmed that ADB will also work in future. 
+If you do not have a free, uncensored Android system, e.g. /e/os or GrapheneOS you may need to install apps via ADB.
+Google has already confirmed that ADB will also work in future. 
 
 #### Set up ADB on your device
 
-    In Android settings find and tap the Build Number option seven times until you see the message You are now a developer! This enables developer options on your device.
+    In Android settings find and tap the Build Number option (usually at the bottom in "About phone") seven times until you see the message ```You are now a developer!```
 
-    Return to the previous screen to find Developer options at the bottom.
+    This enables developer options on your device. 
+
+    Return to the previous screen to find Developer options at the bottom (or maybe in System).
 
     Now enable USB debugging in Developer options.
 
@@ -54,6 +57,8 @@ and the desired apk file, e.g. from F-Droid. Everything should be in your PC's D
 
 #### Connect phone to USB and install app
 
+    Connect phone to PC via a USB cable and check confirmation box on phone and agree to USB debugging from this PC if asked
+
     Set USB options on phone to file transfer
 
     Type "cmd" in Windows search box and click "open"
@@ -62,11 +67,9 @@ and the desired apk file, e.g. from F-Droid. Everything should be in your PC's D
 
     Type "adb install your.apk"
 
-    Check confirmation box on phone and agree if asked
-
 Your app will be installed
 
-    Optional: Switch off USB debugging until you need it again
+    Optional (Recommended): Switch off USB debugging in Developer Options until you need it again
 
 ### Installation of the library in your Android project
 
