@@ -37,13 +37,11 @@ Google has already confirmed that ADB will also work in future.
 
 #### Set up ADB on your device
 
-    In Android settings find and tap the Build Number option (usually at the bottom in "About phone") seven times until you see the message ```You are now a developer!```
-
-    This enables developer options on your device. 
-
-    Return to the previous screen to find Developer options at the bottom (or maybe in System).
-
-    Now enable USB debugging in Developer options.
+    - In Android settings find and tap the Build Number option (usually at the bottom in "About phone")
+      seven times until you see the message "You are now a developer!"
+    - This enables developer options on your device. 
+    - Return to the previous screen to find Developer options at the bottom (or maybe in System).
+    - Now enable USB debugging in Developer options.
 
 #### Download ADB for PC (Windows) 
 
@@ -57,21 +55,17 @@ and the desired apk file, e.g. from F-Droid. Everything should be in your PC's D
 
 #### Connect phone to USB and install app
 
-    Connect phone to PC via a USB cable and check confirmation box on phone and agree to USB debugging from this PC if asked
-
-    Set USB options on phone to file transfer
-
-    Type "cmd" in Windows search box and click "open"
-
-    Type "cd %userprofile%\downloads"
-
-    Type "adb install your.apk"
+    - Connect phone to PC via a USB cable and check confirmation box on phone and agree to USB debugging from this PC if asked
+    - Set USB options on phone to file transfer
+    - Type "cmd" in Windows search box and click "open"
+    - Type "cd %userprofile%\downloads"
+    - Type "adb install your.apk"
 
 Your app will be installed
 
     Optional (Recommended): Switch off USB debugging in Developer Options until you need it again
 
-### Installation of the library in your Android project
+### Use the library in your own Android project
 
 Add the JitPack repository to your root build.gradle at the end of repositories:
 
@@ -91,8 +85,6 @@ dependencies {
     implementation 'com.github.woheller69:FreeDroidWarn:V1.4'
 }
 ```
-
-### Usage
 
 In onCreate of your app just add:
 
