@@ -1,4 +1,5 @@
 <resources>
     <string name="dialog_Warning">O Google anunciou que, a partir de 2026/2027, todos os aplicativos em dispositivos Android certificados exigirão que os desenvolvedores forneçam seus dados pessoais de identidade diretamente ao Google. Como os desenvolvedores deste aplicativo não concordam com esse requisito, o aplicativo deixará de funcionar em dispositivos Android certificados após essa data.</string>
     <string name="dialog_more_info">Detalhes</string>
+    <string name="solution">Solução</string>
 </resources>

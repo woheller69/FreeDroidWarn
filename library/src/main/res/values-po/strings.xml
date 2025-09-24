@@ -1,4 +1,5 @@
 <resources>
     <string name="dialog_Warning">Google ogłosiło, że od 2026/2027 roku wszystkie aplikacje na certyfikowanych urządzeniach z Androidem będą wymagały od deweloperów przekazania swoich danych osobowych dotyczących tożsamości bezpośrednio do Google. Ponieważ deweloperzy tej aplikacji nie zgadzają się na ten wymóg, aplikacja przestanie działać na certyfikowanych urządzeniach z Androidem po tym terminie.</string>
     <string name="dialog_more_info">Szczegóły</string>
+    <string name="solution">Rozwiązanie</string>
 </resources>

@@ -1,4 +1,5 @@
 <resources>
     <string name="dialog_Warning">Google har meddelat att från och med 2026/2027 kommer alla appar på certifierade Android-enheter att kräva att utvecklarna lämnar sina personliga identitetsuppgifter direkt till Google. Eftersom utvecklarna av denna app inte accepterar detta krav kommer appen inte längre att fungera på certifierade Android-enheter efter den tiden.</string>
     <string name="dialog_more_info">Detaljer</string>
+    <string name="solution">Lösning</string>
 </resources>
