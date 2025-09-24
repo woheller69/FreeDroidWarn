@@ -30,10 +30,10 @@ Developer safety – In some countries, linking real-world identities to develop
 
 Adaptation and forking of open-source programs – One of the most important freedoms of open-source software is the ability to fork and adapt programs to personal or local needs. Today, I can simply fork an app, add a translation, build it, and install it on my device. Under the new rules, any fork would require a new package ID — which in turn would force the developer to register with Google and provide personal identity details. This creates a bureaucratic and privacy-invasive barrier to the most basic use of open-source: improving, localizing, and customizing software.
 
-### Workaround
+### Solutions
 
-If you do not have a free, uncensored Android system, e.g. /e/os or GrapheneOS you may need to install apps via ADB.
-Google has already confirmed that ADB will also work in future. 
+- Use a free, uncensored Android system like /e/os, LineageOS or GrapheneOS without Google services
+- Otherwise you can install apps via ADB. Google has already confirmed that ADB will also work in future. 
 
 #### Set up ADB on your device
 
