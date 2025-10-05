@@ -51,15 +51,17 @@ https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/AdbWinUsbApi.dll?r
 
 https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/adb.exe?raw=true
 
+https://github.com/woheller69/FreeDroidWarn/blob/master/APK_Installer.bat?raw=true
+
 and the desired apk file, e.g. from F-Droid. Everything should be in your PC's Downloads folder.
 
 #### Connect phone to USB and install app
 
-    - Connect phone to PC via a USB cable and check confirmation box on phone and agree to USB debugging from this PC if asked
+    - Connect phone to PC via a USB cable
     - Set USB options on phone to file transfer
-    - Type "cmd" in Windows search box and click "open"
-    - Type "cd %userprofile%\downloads"
-    - Type "adb install your.apk"
+    - Open Downloads folder on your PC and double click APK_Installer.bat
+    - Select desired apk from list and install 
+    - If asked, check confirmation box on phone and agree to USB debugging from this PC
 
 Your app will be installed 🚀
 
