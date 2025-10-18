@@ -31,7 +31,7 @@ Requiring developers to submit personal identity details to Google in order for 
 Developer verification will be enforced on certified devices with Google Play Services installed, which is the majority of Android devices. There are options to bypass the restriction:
 
 - Use a free, uncensored Android system like [/e/os](https://e.foundation/e-os/), [LineageOS](https://lineageos.org/), or [GrapheneOS](https://grapheneos.org/) that does not preinstall Google Play Services.
-- "Degoogle" by removing Google Play Services. This will likely require [rooting your device](https://www.androidauthority.com/root-android-277350/).
+- "Degoogle" by removing Google Play Services. Depending on the manufacturer of your phone this may require [rooting your device](https://www.androidauthority.com/root-android-277350/).
 - Install apps via ADB. Google has already confirmed that ADB will continue to work in the future.
 
 ### Set up ADB on your device
