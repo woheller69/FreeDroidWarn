@@ -26,7 +26,7 @@ public class FreeDroidWarn {
                 editor.putInt("versionCodeWarn", buildVersion);
                 editor.apply();
             });
-            alertDialogBuilder.setNeutralButton(context.getString(R.string.solution), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/woheller69/FreeDroidWarn?tab=readme-ov-file#workaround"))));
+            alertDialogBuilder.setNeutralButton(context.getString(R.string.solution), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/woheller69/FreeDroidWarn?tab=readme-ov-file#solutions"))));
 
             AlertDialog alertDialog = alertDialogBuilder.create();
             alertDialog.show();
