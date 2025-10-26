@@ -32,7 +32,7 @@ Developer verification will be enforced on certified devices with Google Play Se
 
 - Use a free, uncensored Android system like [/e/os](https://e.foundation/e-os/), [LineageOS](https://lineageos.org/), or [GrapheneOS](https://grapheneos.org/) that does not preinstall Google Play Services.
 - "Degoogle" by removing Google Play Services. Depending on the manufacturer of your phone this may require [rooting your device](https://www.androidauthority.com/root-android-277350/).
-- Install apps via ADB. Google has already confirmed that ADB will continue to work in the future.
+- Install apps via ADB. Google has already confirmed that ADB will continue to work in the future. You can either use ADB from a PC as described below or use a wireless ADB based installer like [anyapk](https://github.com/sam1am/anyapk).
 
 ### Set up ADB on your device
 
