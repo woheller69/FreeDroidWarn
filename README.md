@@ -2,7 +2,7 @@
 
 ## Overview
 
-From 2026/2027 onward, Google will [require developer verification](https://developer.android.com/developer-verification) for all Android apps on certified devices, including those iinstalled outside of the Play Store.
+From 2026/2027 onward, Google will [require developer verification](https://developer.android.com/developer-verification) for all Android apps on certified devices, including those installed outside of the Play Store.
 
 This library shows an alert dialog with a deprecation warning informing the user that the developer is not going to provide verification. It uses this text:
 
@@ -10,7 +10,7 @@ This library shows an alert dialog with a deprecation warning informing the user
 > 
 > Since the developers of this app do not agree to this requirement, this app will no longer work on certified Android devices after that time.
 
-See [this Android Authority article](https://www.androidauthority.com/android-developer-verification-requirements-3590911/) for more information.
+See [Keep Android Open](https://keepandroidopen.org/) for more information and support us by submitting a complaint to your national regulator.
 
 ## Arguments against developer verification
 
