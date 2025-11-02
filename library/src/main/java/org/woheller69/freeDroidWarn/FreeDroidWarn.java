@@ -20,13 +20,13 @@ public class FreeDroidWarn {
         if (buildVersion > versionCode){
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
             alertDialogBuilder.setMessage(R.string.dialog_Warning);
-            alertDialogBuilder.setNegativeButton(context.getString(R.string.dialog_more_info), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.android.com/developer-verification"))));
+            alertDialogBuilder.setNegativeButton(context.getString(R.string.dialog_more_info), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://keepandroidopen.org"))));
             alertDialogBuilder.setPositiveButton(context.getString(android.R.string.ok), (dialog, which) -> {
                 SharedPreferences.Editor editor = prefManager.edit();
                 editor.putInt("versionCodeWarn", buildVersion);
                 editor.apply();
             });
-            alertDialogBuilder.setNeutralButton(context.getString(R.string.solution), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://keepandroidopen.org"))));
+            alertDialogBuilder.setNeutralButton(context.getString(R.string.solution), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/woheller69/FreeDroidWarn?tab=readme-ov-file#solutions"))));
 
             AlertDialog alertDialog = alertDialogBuilder.create();
             alertDialog.show();
