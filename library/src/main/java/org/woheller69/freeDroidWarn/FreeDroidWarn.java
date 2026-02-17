@@ -14,12 +14,17 @@ import androidx.core.content.ContextCompat;
 
 public class FreeDroidWarn {
 
-    public static void showWarningOnUpgrade(Context context, int buildVersion){
+    public static void showWarningOnUpgrade(Context context, int buildVersion) {
+        showWarningOnUpgrade(context, buildVersion, "");
+    }
+
+    public static void showWarningOnUpgrade(Context context, int buildVersion, String appName){
         SharedPreferences prefManager = PreferenceManager.getDefaultSharedPreferences(context);
         int versionCode = prefManager.getInt("versionCodeWarn",0);
         if (buildVersion > versionCode){
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-            alertDialogBuilder.setMessage(R.string.dialog_Warning);
+            String dialogWarning = getString(R.string.dialog_Warning, appName);
+            alertDialogBuilder.setMessage(dialogWarning);
             alertDialogBuilder.setNegativeButton(context.getString(R.string.dialog_more_info), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://keepandroidopen.org"))));
             alertDialogBuilder.setPositiveButton(context.getString(android.R.string.ok), (dialog, which) -> {
                 SharedPreferences.Editor editor = prefManager.edit();
