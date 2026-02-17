@@ -23,7 +23,7 @@ public class FreeDroidWarn {
         int versionCode = prefManager.getInt("versionCodeWarn",0);
         if (buildVersion > versionCode){
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-            String dialogWarning = getString(R.string.dialog_Warning, appName);
+            String dialogWarning = context.getString(R.string.dialog_Warning, appName);
             alertDialogBuilder.setMessage(dialogWarning);
             alertDialogBuilder.setNegativeButton(context.getString(R.string.dialog_more_info), (dialog, which) -> context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://keepandroidopen.org"))));
             alertDialogBuilder.setPositiveButton(context.getString(android.R.string.ok), (dialog, which) -> {
