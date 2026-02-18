@@ -69,6 +69,8 @@ Optional (**recommended**): Switch off USB debugging in Developer options until 
 
 __1.__ Add the JitPack repository to your root `build.gradle` file at the end of repositories:
 
+(If you are not using Groovy, see instructions on [Jitpack](https://jitpack.io/#woheller69/FreeDroidWarn))
+
 ```gradle
 allprojects {
   repositories {
