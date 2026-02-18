@@ -67,7 +67,7 @@ Optional (**recommended**): Switch off USB debugging in Developer options until 
 
 ## Use this library in your own Android project
 
-__1.__ Add the JitPack repository to your root `build.gradle` file at the end of repositories:
+Add the JitPack repository to your root `build.gradle` file at the end of repositories:
 
 (If you are not using Groovy, see instructions on [Jitpack](https://jitpack.io/#woheller69/FreeDroidWarn))
 
@@ -80,30 +80,7 @@ allprojects {
 }
 ```
 
-Or, if your build configuration language is Kotlin rather than Groovy, add the JitPack repository to your root `settings.gradle.kts` file at the end of repositories in the dependencyResolutionManagement block:
-
-```kotlin
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        ...
-        maven { url = uri("https://jitpack.io") }
-    }
-}
-```
-
-But if you are using Kotlin with older than Gradle 6.8 or Android Gradle Plugin 7.0, then you can try adding the JitPack repository to your root `build.gradle.kts` file at the end of repositories:
-
-```kotlin
-allprojects {
-    repositories {
-        ...
-        maven { url = uri("https://jitpack.io") }
-    }
-}
-```
-
-__2.__ Add the library dependency to your `build.gradle` file or to your root `build.gradle.kts` file:
+Add the library dependency to your `build.gradle` file or to your root `build.gradle.kts` file:
 
 ```gradle
 dependencies {
@@ -111,7 +88,7 @@ dependencies {
 }
 ```
 
-__3.__ In `onCreate` of your app just add:
+In `onCreate` of your app just add:
 
 ```java
 FreeDroidWarn.showWarningOnUpgrade(this, BuildConfig.VERSION_CODE);
