@@ -1,5 +1,16 @@
 # FreeDroidWarn
 
+## Table of contents
+- [Overview](#overview)
+- [Arguments against developer verification](#arguments-against-developer-verification)
+- [Solutions](#solutions)
+  - [Set up ADB on your device](#set-up-adb-on-your-device)
+    - [Download ADB for PC (Windows)](#download-adb-for-pc-windows)
+    - [Download app APK](#download-app-apk)
+    - [Connect phone to USB and install app](#connect-phone-to-usb-and-install-app)
+- [Use this library in your own Android project](#use-this-library-in-your-own-android-project)
+- [License](#license)
+
 ## Overview
 
 From 2026/2027 onward, Google will [require developer verification](https://developer.android.com/developer-verification) for all Android apps on certified devices, including those installed outside of the Play Store.
@@ -40,7 +51,7 @@ Developer verification will be enforced on certified devices with Google Play Se
 - Return to the main Settings screen to find Developer options at the bottom (or it may be in System)
 - Scroll through the options to find and enable USB debugging. On some devices, you can use the hourglass at the top of the Settings app to search for "USB debugging".
 
-#### Download ADB for PC (Windows) 
+#### Download ADB for PC (Windows)
 
 Download these files into a folder:
 
