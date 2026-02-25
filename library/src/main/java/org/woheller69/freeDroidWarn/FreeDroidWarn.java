@@ -8,16 +8,20 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.util.TypedValue;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.snackbar.Snackbar;
 
 public class FreeDroidWarn {
 
-    public static void showWarningOnUpgrade(Context context, int buildVersion){
+    public static void showWarningDialogOnUpgrade(Context context, int buildVersion){
         SharedPreferences prefManager = PreferenceManager.getDefaultSharedPreferences(context);
         int versionCode = prefManager.getInt("versionCodeWarn",0);
         if (buildVersion > versionCode){
@@ -43,6 +47,30 @@ public class FreeDroidWarn {
 
                 neutralButton.setTextColor(color);
             }
+        }
+
+    }
+
+    public static void showWarningSnackBarOnUpgrade(Context context, View view, int buildVersion){
+        SharedPreferences prefManager = PreferenceManager.getDefaultSharedPreferences(context);
+        int versionCode = prefManager.getInt("versionCodeWarn",0);
+
+        if (buildVersion > versionCode){
+            Snackbar snackbar = Snackbar.make(view, R.string.dialog_Warning, Snackbar.LENGTH_INDEFINITE);
+            View snackbarView = snackbar.getView();
+
+            TextView textView = snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);
+            textView.setMaxLines(Integer.MAX_VALUE);
+            textView.setSingleLine(false);
+
+            snackbar.setAction(R.string.dialog_more_info, v -> {
+                context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://keepandroidopen.org")));
+                SharedPreferences.Editor editor = prefManager.edit();
+                editor.putInt("versionCodeWarn", buildVersion);
+                editor.apply();
+            });
+            snackbar.setDuration(5000);
+            snackbar.show();
         }
 
     }
