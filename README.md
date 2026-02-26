@@ -9,6 +9,8 @@
     - [Download app APK](#download-app-apk)
     - [Connect phone to USB and install app](#connect-phone-to-usb-and-install-app)
 - [Use this library in your own Android project](#use-this-library-in-your-own-android-project)
+    - [Implement the dialog](#implement-the-dialog)
+    - [Implement the SnackBar](#implement-the-snackbar)
 - [License](#license)
 
 ## Overview
@@ -77,7 +79,6 @@ Your app will be installed 🚀
 Optional (**recommended**): Switch off USB debugging in Developer options until you need it again.
 
 ## Use this library in your own Android project
-
 Add the JitPack repository to your root `build.gradle` at the end of repositories:
 
 (If you are not using Groovy, see instructions on [Jitpack](https://jitpack.io/#woheller69/FreeDroidWarn))
@@ -99,12 +100,22 @@ dependencies {
 }
 ```
 
+### Implement the dialog
 In `onCreate` of your app just add:
 
 ```java
 import org.woheller69.freeDroidWarn.FreeDroidWarn;
 ...
-FreeDroidWarn.showWarningOnUpgrade(this, BuildConfig.VERSION_CODE);
+FreeDroidWarn.showWarningDialogOnUpgrade(this, BuildConfig.VERSION_CODE);
+```
+
+### Implement the SnackBar
+In `onCreate` of your app just add:
+
+```java
+import org.woheller69.freeDroidWarn.FreeDroidWarn;
+...
+FreeDroidWarn.showWarningSnackBarOnUpgrade(this, view, BuildConfig.VERSION_CODE);
 ```
 
 ## License
