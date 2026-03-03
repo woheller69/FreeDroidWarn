@@ -1,11 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 32
+    namespace "org.woheller69.freeDroidWarn"
+    compileSdk 36
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdk 31
+        minSdk 21
+        targetSdk 34
         versionCode 16
         versionName "1.6"
     }
@@ -19,5 +20,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'com.google.android.material:material:1.13.0'
 }

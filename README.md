@@ -1,5 +1,18 @@
 # FreeDroidWarn
 
+## Table of contents
+- [Overview](#overview)
+- [Arguments against developer verification](#arguments-against-developer-verification)
+- [Solutions](#solutions)
+  - [Set up ADB on your device](#set-up-adb-on-your-device)
+    - [Download ADB for PC (Windows)](#download-adb-for-pc-windows)
+    - [Download app APK](#download-app-apk)
+    - [Connect phone to USB and install app](#connect-phone-to-usb-and-install-app)
+- [Use this library in your own Android project](#use-this-library-in-your-own-android-project)
+    - [Implement the dialog](#implement-the-dialog)
+    - [Implement the SnackBar](#implement-the-snackbar)
+- [License](#license)
+
 ## Overview
 
 From 2026/2027 onward, Google will [require developer verification](https://developer.android.com/developer-verification) for all Android apps on certified devices, including those installed outside of the Play Store.
@@ -40,7 +53,7 @@ Developer verification will be enforced on certified devices with Google Play Se
 - Return to the main Settings screen to find Developer options at the bottom (or it may be in System)
 - Scroll through the options to find and enable USB debugging. On some devices, you can use the hourglass at the top of the Settings app to search for "USB debugging".
 
-#### Download ADB for PC (Windows) 
+#### Download ADB for PC (Windows)
 
 Download these files into a folder:
 
@@ -66,7 +79,6 @@ Your app will be installed 🚀
 Optional (**recommended**): Switch off USB debugging in Developer options until you need it again.
 
 ## Use this library in your own Android project
-
 Add the JitPack repository to your root `build.gradle` at the end of repositories:
 
 (If you are not using Groovy, see instructions on [Jitpack](https://jitpack.io/#woheller69/FreeDroidWarn))
@@ -88,12 +100,22 @@ dependencies {
 }
 ```
 
+### Implement the dialog
 In `onCreate` of your app just add:
 
 ```java
 import org.woheller69.freeDroidWarn.FreeDroidWarn;
 ...
-FreeDroidWarn.showWarningOnUpgrade(this, BuildConfig.VERSION_CODE);
+FreeDroidWarn.showWarningDialogOnUpgrade(this, BuildConfig.VERSION_CODE);
+```
+
+### Implement the SnackBar
+In `onCreate` of your app just add:
+
+```java
+import org.woheller69.freeDroidWarn.FreeDroidWarn;
+...
+FreeDroidWarn.showWarningSnackBarOnUpgrade(this, view, BuildConfig.VERSION_CODE);
 ```
 
 ## License
