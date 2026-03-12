@@ -4,7 +4,11 @@
 
 From 2026/2027 onward, Google will [require developer verification](https://developer.android.com/developer-verification) for all Android apps on certified devices, including those installed outside of the Play Store.
 
-This library shows an alert dialog with a deprecation warning informing the user that the developer is not going to provide verification. It uses this text:
+This library shows an alert dialog with a deprecation warning informing the user that the developer is not going to provide verification.
+
+To reduce unnecessary prompts, it skips the warning on devices that appear to run common de-Googled/free Android distributions (for example GrapheneOS, LineageOS, /e/OS, CalyxOS, iodéOS, DivestOS, or Replicant) based on public `Build` fingerprints/metadata.
+
+It uses this text:
 
 > Google has announced that, starting in 2026/2027, all apps on certified Android devices will require the developer to submit personal identity details directly to Google.
 > 
