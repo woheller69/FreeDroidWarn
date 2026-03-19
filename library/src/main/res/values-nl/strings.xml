@@ -1,0 +1,5 @@
+<resources>
+    <string name="dialog_Warning">Google heeft aangekondigd dat vanaf 2026/2027 alle apps op gecertificeerde Android-apparaten vereisen dat de ontwikkelaar persoonlijke identificatiegegevens rechtstreeks aan Google verstrekt. Aangezien de ontwikkelaars van deze app niet akkoord gaan met deze vereiste, zal deze app na die datum niet meer werken op gecertificeerde Android-apparaten.</string>
+    <string name="dialog_more_info">Details</string>
+    <string name="solution">Oplossing</string>
+</resources>
