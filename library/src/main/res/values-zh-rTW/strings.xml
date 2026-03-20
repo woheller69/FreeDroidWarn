@@ -1,0 +1,5 @@
+<resources>
+    <string name="dialog_Warning">Google宣布，從2026年或2027年開始，所有在認證Android裝置上運行的應用程式，開發者都必須直接向Google提交個人身份資訊。由於本應用程式的開發者不同意此項要求，屆時該應用程式將無法在認證的安卓設備上繼續運行。</string>
+    <string name="dialog_more_info">詳情</string>
+    <string name="solution">解決方案</string>
+</resources>
