@@ -14,7 +14,22 @@ import androidx.core.content.ContextCompat;
 
 public class FreeDroidWarn {
 
+    /**
+     * Returns true if the device is under Google control, i.e. the package installer
+     * is the standard AOSP or Google Play installer. On devices using alternative
+     * package managers (e.g. F-Droid) Google's developer-verification restrictions
+     * do not apply, so the warning is unnecessary.
+     */
+    private static boolean isGoogleControlled(Context context) {
+        String installer = context.getPackageManager()
+                .getInstallerPackageName(context.getPackageName());
+        return "com.android.packageinstaller".equals(installer)
+                || "com.google.android.packageinstaller".equals(installer);
+    }
+
     public static void showWarningOnUpgrade(Context context, int buildVersion){
+        if (!isGoogleControlled(context)) return;
+
         SharedPreferences prefManager = PreferenceManager.getDefaultSharedPreferences(context);
         int versionCode = prefManager.getInt("versionCodeWarn",0);
         if (buildVersion > versionCode){
