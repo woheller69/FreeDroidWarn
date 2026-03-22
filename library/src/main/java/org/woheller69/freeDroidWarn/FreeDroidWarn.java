@@ -23,8 +23,7 @@ public class FreeDroidWarn {
     private static boolean isGoogleControlled(Context context) {
         String installer = context.getPackageManager()
                 .getInstallerPackageName(context.getPackageName());
-        return "com.android.packageinstaller".equals(installer)
-                || "com.google.android.packageinstaller".equals(installer);
+        return "com.google.android.packageinstaller".equals(installer);
     }
 
     public static void showWarningOnUpgrade(Context context, int buildVersion){
