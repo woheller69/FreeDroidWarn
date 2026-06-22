@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Azerbaijani (az) -->
+<resources>
+    <string name="dialog_Warning">Google elan edib ki, 2026/2027-ci ildən başlayaraq, sertifikatlaşdırılmış Android cihazlarındaki bütün tətbiqlər üçün tərtibatçılar şəxsi identifikasiya məlumatlarını birbaşa Google-a təqdim etməli olacaqlar. Bu tətbiqin tərtibatçıları bu tələblə razılaşmadığından, tətbiq həmin vaxtdan sonra sertifikatlaşdırılmış Android cihazlarında işləməyəcək.</string>
+    <string name="dialog_more_info">Təfərrüatlar</string>
+    <string name="solution">Həll yolu</string>
+</resources>

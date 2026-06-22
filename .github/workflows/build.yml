@@ -1,0 +1,52 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Library AAR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v5
+        with:
+          persist-credentials: false
+
+      # AGP 8.5.2 requires JDK 17+.
+      # Temurin 17 is the OpenJDK distribution used by the Android team
+      # in their own CI and is the recommended choice for FOSS projects.
+      - name: Set up JDK 17 (Temurin)
+        uses: actions/setup-java@ad2b38190b15e4d6bdf0c97fb4fca8412226d287 # v5
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      - name: Verify Java version
+        run: java -version
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build release AAR
+        run: ./gradlew :library:assembleRelease --no-daemon --stacktrace
+
+      - name: Upload AAR artifact
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v5
+        with:
+          name: freeDroidWarn-release-aar
+          path: library/build/outputs/aar/*.aar
+          retention-days: 14
+          if-no-files-found: error

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Kashmiri (ks) -->
+<resources>
+    <string name="dialog_Warning">گوگل ہِنز اعلان کۆر ژ 2026/2027 سیتھہ، سرٹیفائیڈ Android ڈیوایسِس پَر سٲری ایپس واسطہ ڈیولپرَن ہِند نِجی پَچھٲن تفصیلات سیدھی Google کُن دینۍ پَووُن۔ چونکہ اَمیس ایپَس ڈیولپرَن اَمیس شَرط پَیٹھ رَضامَندی نَہ دِتھ، اَمہ وَیلہ باد اَمُت ایپ سرٹیفائیڈ Android ڈیوایسِس پَر کَم نَہ کَرِ۔</string>
+    <string name="dialog_more_info">تفصیلات</string>
+    <string name="solution">حل</string>
+</resources>

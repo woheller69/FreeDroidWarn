@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Marathi (mr) -->
+<resources>
+    <string name="dialog_Warning">Google ने घोषणा केली आहे की 2026/2027 पासून, प्रमाणित Android डिव्हाइसवरील सर्व अ‍ॅप्ससाठी डेव्हलपरांना त्यांचे वैयक्तिक ओळखीचे तपशील थेट Google ला सादर करावे लागतील. या अ‍ॅपचे डेव्हलपर या आवश्यकतेशी सहमत नसल्यामुळे, त्या वेळानंतर हे अ‍ॅप प्रमाणित Android डिव्हाइसवर काम करणार नाही.</string>
+    <string name="dialog_more_info">तपशील</string>
+    <string name="solution">उपाय</string>
+</resources>

@@ -1,5 +1,20 @@
 # FreeDroidWarn
 
+## Table of contents
+- [Overview](#overview)
+- [Arguments against developer verification](#arguments-against-developer-verification)
+- [Solutions](#solutions)
+  - [Set up ADB on your device](#set-up-adb-on-your-device)
+    - [Download ADB for PC (Windows)](#download-adb-for-pc-windows)
+    - [Download ADB for PC (Ubuntu-Debian)](#download-adb-for-pc-ubuntu-debian)
+    - [Download ADB for PC (Arch Linux-Manjaro)](#download-adb-for-pc-arch-linux-manjaro)
+    - [Download app APK](#download-app-apk)
+    - [Connect phone to USB and install app](#connect-phone-to-usb-and-install-app)
+- [Use this library in your own Android project](#use-this-library-in-your-own-android-project)
+    - [Implement the dialog](#implement-the-dialog)
+    - [Implement the SnackBar](#implement-the-snackbar)
+- [License](#license)
+
 ## Overview
 
 From 2026/2027 onward, Google will [require developer verification](https://developer.android.com/developer-verification) for all Android apps on certified devices, including those installed outside of the Play Store.
@@ -18,7 +33,7 @@ Requiring developers to submit personal identity details to Google in order for 
 
 **Developer privacy** – Individual developers and small teams should not be forced to hand over government IDs or sensitive documents to a multinational corporation. Many developers value their privacy for legitimate personal, political, or security reasons.
 
-**The right to use my own device** – As a user, I should be free to run the software of my choice on my phone. Blocking applications that do not meet Google’s new requirements is a restriction on device ownership and digital freedom.
+**The right to use my own device** – As a user, I should be free to run the software of my choice on my phone. Blocking applications that do not meet Google's new requirements is a restriction on device ownership and digital freedom.
 
 **Free and open-source software ecosystems** – Many FOSS projects are developed by volunteers who will not (and often cannot) provide identity documents. This policy risks removing an enormous amount of valuable free software from certified Android devices.
 
@@ -31,7 +46,7 @@ Requiring developers to submit personal identity details to Google in order for 
 Developer verification will be enforced on certified devices with Google Play Services installed, which is the majority of Android devices. There are options to bypass the restriction:
 
 - Use a free, uncensored Android system like [/e/os](https://e.foundation/e-os/), [LineageOS](https://lineageos.org/), or [GrapheneOS](https://grapheneos.org/) that does not preinstall Google Play Services.
-- "Degoogle" by removing Google Play Services. If it is a system app, you can uninstall it using ADB.
+- "Degoogle" by removing Google Play Services. If it is a system app, you can usually disable or uninstall it for the current user via ADB; otherwise, depending on the manufacturer of your phone, this may require [rooting your device](https://www.androidauthority.com/root-android-277350/).
 - Install apps via ADB. Google has already confirmed that ADB will continue to work in the future. You can either use ADB from a PC as described below or use a wireless ADB based installer like [anyapk](https://github.com/sam1am/anyapk).
 
 ### Set up ADB on your device
@@ -40,7 +55,7 @@ Developer verification will be enforced on certified devices with Google Play Se
 - Return to the main Settings screen to find Developer options at the bottom (or it may be in System)
 - Scroll through the options to find and enable USB debugging. On some devices, you can use the hourglass at the top of the Settings app to search for "USB debugging".
 
-#### Download ADB for PC (Windows) 
+#### Download ADB for PC (Windows)
 
 Download these files into a folder:
 
@@ -49,24 +64,94 @@ Download these files into a folder:
 - [adb.exe](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/adb.exe?raw=true)
 - [APK_Installer.bat](https://github.com/woheller69/FreeDroidWarn/blob/master/APK_Installer.bat?raw=true)
 
+#### Download ADB for PC (Ubuntu-Debian)
+
+Install ADB using the package manager:
+
+```bash
+sudo apt update
+sudo apt install adb
+```
+
+Verify the installation:
+
+```bash
+adb version
+```
+
+> **Note:** The version in apt repositories may be slightly older. For the latest ADB, download [Android Platform Tools](https://developer.android.com/tools/releases/platform-tools) from Google and extract the archive, then run `./adb` from the extracted folder.
+
+To avoid needing `sudo` for ADB, add your user to the `plugdev` group and install udev rules:
+
+```bash
+sudo apt install android-sdk-platform-tools-common
+sudo usermod -aG plugdev $USER
+```
+
+Log out and back in for the group change to take effect.
+
+#### Download ADB for PC (Arch Linux-Manjaro)
+
+Install ADB using pacman:
+
+```bash
+sudo pacman -S android-tools
+```
+
+Verify the installation:
+
+```bash
+adb version
+```
+
+For udev rules so ADB works without `sudo`:
+
+```bash
+sudo pacman -S android-udev
+sudo usermod -aG adbusers $USER
+```
+
+Log out and back in for the group change to take effect.
+
+> **AUR alternative:** If you prefer the latest upstream platform tools, you can install via the AUR:
+>
+> ```bash
+> yay -S android-sdk-platform-tools
+> ```
+>
+
 #### Download app APK
 
-You will also need the APK file to install to your phone, e.g. from [F-Droid](https://f-droid.org/). Save the APK to the same folder where you downloaded the above files.
+You will also need the APK file to install to your phone, e.g. from [F-Droid](https://f-droid.org/). Save the APK to the same folder where you downloaded the above files (Windows) or any convenient directory (Linux).
 
 #### Connect phone to USB and install app
 
+**Windows:**
 - Connect your phone to the PC via a USB cable.
 - You should see a notification on your phone to change USB mode. Set it to file transfer mode.
 - Open the folder where you saved the above files and double click `APK_Installer.bat`.
 - Select desired APK from list and install.
 - If prompted, check confirmation box on phone and agree to USB debugging from this PC.
 
+**Ubuntu/Debian & Arch Linux/Manjaro:**
+- Connect your phone to the PC via a USB cable and set USB mode to file transfer.
+- Open a terminal and run:
+
+```bash
+adb devices
+```
+
+You should see your device listed (accept the USB debugging prompt on your phone if it appears). Then install the APK:
+
+```bash
+adb install /path/to/your-app.apk
+```
+
 Your app will be installed 🚀
 
 Optional (**recommended**): Switch off USB debugging in Developer options until you need it again.
 
 ## Use this library in your own Android project
-
 Add the JitPack repository to your root `build.gradle` at the end of repositories:
 
 (If you are not using Groovy, see instructions on [Jitpack](https://jitpack.io/#woheller69/FreeDroidWarn))
@@ -88,12 +173,22 @@ dependencies {
 }
 ```
 
+### Implement the dialog
 In `onCreate` of your app just add:
 
 ```java
 import org.woheller69.freeDroidWarn.FreeDroidWarn;
 ...
-FreeDroidWarn.showWarningOnUpgrade(this, BuildConfig.VERSION_CODE);
+FreeDroidWarn.showWarningDialogOnUpgrade(this, BuildConfig.VERSION_CODE);
+```
+
+### Implement the SnackBar
+In `onCreate` of your app just add:
+
+```java
+import org.woheller69.freeDroidWarn.FreeDroidWarn;
+...
+FreeDroidWarn.showWarningSnackBarOnUpgrade(this, view, BuildConfig.VERSION_CODE);
 ```
 
 ## License

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Konkani (kok) -->
+<resources>
+    <string name="dialog_Warning">Google ने जाहीर केला आसा की 2026/2027 सावन, प्रमाणित Android डिव्हायसांवेलल्या सगळ्या ॲप्सांखातीर डेव्हलपरांनी तांचे वैयक्तिक ओळखीचे तपशील थेट Google ला सादर करचे आसात. ह्या ॲपाचे डेव्हलपर ह्या गरजेकडे सहमत नासल्यान, तो वेळ उपरांत हो ॲप प्रमाणित Android डिव्हायसांचेर काम करचो ना.</string>
+    <string name="dialog_more_info">तपशील</string>
+    <string name="solution">उपाय</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Latvian (lv) -->
+<resources>
+    <string name="dialog_Warning">Google ir paziņojis, ka, sākot ar 2026./2027. gadu, visām lietotnēm sertificētās Android ierīcēs būs nepieciešams, lai izstrādātāji savu personisko identitātes informāciju iesniegtu tieši Google. Tā kā šīs lietotnes izstrādātāji nepiekrīt šai prasībai, lietotne pēc minētā laika sertificētās Android ierīcēs vairs nedarbosies.</string>
+    <string name="dialog_more_info">Informācija</string>
+    <string name="solution">Risinājums</string>
+</resources>

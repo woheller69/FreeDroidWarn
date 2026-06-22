@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Manipuri / Meitei (mni) -->
+<resources>
+    <string name="dialog_Warning">Google না হায়বিরে ২০২৬/২০২৭ থম্বদগী, সর্টিফাইড Android ডিভাইসশিংদা ওইবা অ্যাপ থম্মলবশিংনা ডেভেলপরশিং না মখোয়গী পার্সোনেল আইডেন্টিটি তপশিলশিং থেংনবা Google দা শুম্নবা চাই। অদুমক মসি অ্যাপকী ডেভেলপরশিংনা মসি দাবিদা উম্বা নৱাইদবা মতৌদা, মসিদা মসি অ্যাপনা সর্টিফাইড Android ডিভাইসশিংদা শিজিন্ননবা থারকই।</string>
+    <string name="dialog_more_info">তপশিল</string>
+    <string name="solution">হায়খিনবা</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Punjabi (pa) -->
+<resources>
+    <string name="dialog_Warning">Google ਨੇ ਐਲਾਨ ਕੀਤਾ ਹੈ ਕਿ 2026/2027 ਤੋਂ, ਪ੍ਰਮਾਣਿਤ Android ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਸਾਰੀਆਂ ਐਪਾਂ ਲਈ ਡਿਵੈਲਪਰਾਂ ਨੂੰ ਆਪਣੀ ਨਿੱਜੀ ਪਛਾਣ ਦੀ ਜਾਣਕਾਰੀ ਸਿੱਧੇ Google ਨੂੰ ਦੇਣੀ ਪਵੇਗੀ। ਕਿਉਂਕਿ ਇਸ ਐਪ ਦੇ ਡਿਵੈਲਪਰ ਇਸ ਜ਼ਰੂਰਤ ਨਾਲ ਸਹਿਮਤ ਨਹੀਂ ਹਨ, ਇਹ ਐਪ ਉਸ ਸਮੇਂ ਤੋਂ ਬਾਅਦ ਪ੍ਰਮਾਣਿਤ Android ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਕੰਮ ਨਹੀਂ ਕਰੇਗੀ।</string>
+    <string name="dialog_more_info">ਵੇਰਵੇ</string>
+    <string name="solution">ਹੱਲ</string>
+</resources>

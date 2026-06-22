@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Thai (th) -->
+<resources>
+    <string name="dialog_Warning">Google ประกาศว่า เริ่มตั้งแต่ปี 2026/2027 แอปทั้งหมดบนอุปกรณ์ Android ที่ผ่านการรับรองจะต้องให้นักพัฒนาส่งข้อมูลยืนยันตัวบุคคลโดยตรงไปยัง Google เนื่องจากนักพัฒนาแอปนี้ไม่ยอมรับข้อกำหนดดังกล่าว แอปนี้จะไม่สามารถทำงานบนอุปกรณ์ Android ที่ผ่านการรับรองได้อีกต่อไปหลังจากเวลานั้น</string>
+    <string name="dialog_more_info">รายละเอียด</string>
+    <string name="solution">วิธีแก้ไข</string>
+</resources>

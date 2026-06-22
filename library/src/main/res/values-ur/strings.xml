@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Urdu (ur) -->
+<resources>
+    <string name="dialog_Warning">Google نے اعلان کیا ہے کہ 2026/2027 سے، تصدیق شدہ Android آلات پر تمام ایپس کے لیے ڈویلپرز کو اپنی ذاتی شناختی تفصیلات براہ راست Google کو جمع کرانی ہوں گی۔ چونکہ اس ایپ کے ڈویلپرز اس شرط سے متفق نہیں ہیں، یہ ایپ اس وقت کے بعد تصدیق شدہ Android آلات پر کام نہیں کرے گی۔</string>
+    <string name="dialog_more_info">تفصیلات</string>
+    <string name="solution">حل</string>
+</resources>

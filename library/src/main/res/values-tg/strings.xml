@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Tajik (tg) -->
+<resources>
+    <string name="dialog_Warning">Google эълон кардааст, ки аз соли 2026/2027 сар карда, ҳамаи барномаҳо дар дастгоҳҳои Android-и тасдиқшуда аз таҳиягарон талаб мекунанд, ки маълумоти шахсии шиносоии худро бевосита ба Google пешниҳод кунанд. Азбаски таҳиягарони ин барнома бо ин талаб розӣ нестанд, ин барнома пас аз он вақт дар дастгоҳҳои Android-и тасдиқшуда кор намекунад.</string>
+    <string name="dialog_more_info">Тафсилот</string>
+    <string name="solution">Ҳалли он</string>
+</resources>

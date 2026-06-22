@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Sanskrit (sa) -->
+<resources>
+    <string name="dialog_Warning">Google घोषितवान् यत् 2026/2027 तः आरभ्य, प्रमाणित Android यन्त्रेषु सर्वेभ्यः अनुप्रयोगेभ्यः विकासकाः स्वस्य वैयक्तिक परिचय विवरणानि साक्षात् Google परिवेदयितुम् आवश्यकाः भविष्यन्ति। यतः अस्य अनुप्रयोगस्य विकासकाः अस्याः आवश्यकतायाः साकम् सहमताः नसन्ति, अतः अयम् अनुप्रयोगः तत्पश्चात् प्रमाणित Android यन्त्रेषु कार्यं न करिष्यति।</string>
+    <string name="dialog_more_info">विवरणम्</string>
+    <string name="solution">समाधानम्</string>
+</resources>

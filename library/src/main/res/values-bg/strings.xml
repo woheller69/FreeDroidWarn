@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Bulgarian (bg) -->
+<resources>
+    <string name="dialog_Warning">Google обяви, че от 2026/2027 г. всички приложения на сертифицирани Android устройства ще изискват от разработчиците да предоставят лични данни за самоличност директно на Google. Тъй като разработчиците на това приложение не са съгласни с това изискване, приложението ще спре да работи на сертифицирани Android устройства след този момент.</string>
+    <string name="dialog_more_info">Подробности</string>
+    <string name="solution">Решение</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Armenian (hy) -->
+<resources>
+    <string name="dialog_Warning">Google-ը հայտարարել է, որ սկսած 2026/2027 թվականից, հաստատագրված Android սարքերում բոլոր հավելվածների համար մշակողները պարտավոր կլինեն Google-ին ուղղակիորեն ուղարկել իրենց անձնական ինքնության տվյալները։ Քանի որ այս հավելվածի մշակողները համաձայն չեն այս պահանջի հետ, հավելվածն այդ ժամանակից հետո հաստատագրված Android սարքերում չի աշխատի։</string>
+    <string name="dialog_more_info">Մանրամասներ</string>
+    <string name="solution">Լուծում</string>
+</resources>

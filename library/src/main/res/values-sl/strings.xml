@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Slovenian (sl) -->
+<resources>
+    <string name="dialog_Warning">Google je sporočil, da bodo od 2026/2027 vse aplikacije na certificiranih napravah Android zahtevale, da razvijalci neposredno posredujejo osebne podatke o identiteti družbi Google. Ker se razvijalci te aplikacije ne strinjajo s to zahtevo, aplikacija po tem času ne bo več delovala na certificiranih napravah Android.</string>
+    <string name="dialog_more_info">Podrobnosti</string>
+    <string name="solution">Rešitev</string>
+</resources>

@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Finnish (fi) -->
 <resources>
     <string name="dialog_Warning">Google on ilmoittanut, että vuodesta 2026/2027 lähtien kaikkien sertifioitujen Android-laitteiden sovellusten kehittäjien on toimitettava henkilötiedot suoraan Googlelle. Koska tämän sovelluksen kehittäjät eivät suostu tähän vaatimukseen, sovellus ei enää toimi sertifioiduilla Android-laitteilla kyseisen ajankohdan jälkeen.</string>
     <string name="dialog_more_info">Tiedot</string>

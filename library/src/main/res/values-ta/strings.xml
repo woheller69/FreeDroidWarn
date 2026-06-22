@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Tamil (ta) -->
+<resources>
+    <string name="dialog_Warning">2026/2027 முதல், சான்றளிக்கப்பட்ட Android சாதனங்களில் உள்ள அனைத்து செயலிகளுக்கும் உருவாக்குநர்கள் தங்களுடைய தனிப்பட்ட அடையாள விவரங்களை நேரடியாக Google-ல் சமர்ப்பிக்க வேண்டும் என்று Google அறிவித்துள்ளது. இந்த செயலியின் உருவாக்குநர்கள் இந்தத் தேவையை ஏற்காததால், அந்த நேரத்திற்குப் பிறகு இந்த செயலி சான்றளிக்கப்பட்ட Android சாதனங்களில் இயங்காது.</string>
+    <string name="dialog_more_info">விவரங்கள்</string>
+    <string name="solution">தீர்வு</string>
+</resources>

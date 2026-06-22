@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Odia (or) -->
+<resources>
+    <string name="dialog_Warning">Google ଘୋଷଣା କରିଛି ଯେ 2026/2027 ଠାରୁ, ପ୍ରମାଣିତ Android ଉପକରଣଗୁଡ଼ିକରେ ସମସ୍ତ ଆପ ପାଇଁ ଡେଭଲପରମାନଙ୍କୁ ସେମାନଙ୍କ ବ୍ୟକ୍ତିଗତ ପରିଚୟ ବିବରଣୀ ସିଧାସଳଖ Google କୁ ଦାଖଲ କରିବାକୁ ପଡ଼ିବ। ଯେହେତୁ ଏହି ଆପର ଡେଭଲପରମାନେ ଏହି ଆବଶ୍ୟକତା ସହ ରାଜି ନୁହଁନ୍ତି, ଏହି ଆପ ସେ ସମୟ ପରେ ପ୍ରମାଣିତ Android ଉପକରଣଗୁଡ଼ିକରେ କାର୍ଯ୍ୟ କରିବ ନାହିଁ।</string>
+    <string name="dialog_more_info">ବିବରଣୀ</string>
+    <string name="solution">ସମାଧାନ</string>
+</resources>

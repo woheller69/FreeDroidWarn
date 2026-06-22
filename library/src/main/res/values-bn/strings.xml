@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Bengali (bn) -->
+<resources>
+    <string name="dialog_Warning">Google ঘোষণা করেছে যে 2026/2027 থেকে, প্রত্যয়িত Android ডিভাইসের সমস্ত অ্যাপের জন্য ডেভেলপারদের তাদের ব্যক্তিগত পরিচয়ের বিবরণ সরাসরি Google-এ জমা দিতে হবে। যেহেতু এই অ্যাপের ডেভেলপাররা এই শর্তের সাথে একমত নন, এই অ্যাপটি সেই সময়ের পরে প্রত্যয়িত Android ডিভাইসে আর কাজ করবে না।</string>
+    <string name="dialog_more_info">বিস্তারিত</string>
+    <string name="solution">সমাধান</string>
+</resources>

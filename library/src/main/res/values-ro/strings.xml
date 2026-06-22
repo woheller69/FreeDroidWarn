@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Romanian (ro) -->
+<resources>
+    <string name="dialog_Warning">Google a anunțat că, începând cu 2026/2027, toate aplicațiile pe dispozitive Android certificate vor necesita ca dezvoltatorii să trimită datele de identitate personală direct către Google. Întrucât dezvoltatorii acestei aplicații nu sunt de acord cu această cerință, aplicația nu va mai funcționa pe dispozitive Android certificate după acel moment.</string>
+    <string name="dialog_more_info">Detalii</string>
+    <string name="solution">Soluție</string>
+</resources>

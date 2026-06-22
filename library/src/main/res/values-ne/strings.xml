@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Nepali (ne) -->
+<resources>
+    <string name="dialog_Warning">Google ले घोषणा गरेको छ कि 2026/2027 देखि, प्रमाणित Android उपकरणहरूमा सबै एपहरूको लागि डेवलपरहरूले आफ्नो व्यक्तिगत पहिचान विवरण सीधै Google लाई पेश गर्नुपर्नेछ। यस एपका डेवलपरहरू यो आवश्यकतासँग सहमत नभएकोले, त्यस समयपछि यो एप प्रमाणित Android उपकरणहरूमा काम गर्नेछैन।</string>
+    <string name="dialog_more_info">विवरण</string>
+    <string name="solution">समाधान</string>
+</resources>

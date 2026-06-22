@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Malay (ms) -->
+<resources>
+    <string name="dialog_Warning">Google telah mengumumkan bahawa, bermula 2026/2027, semua aplikasi pada peranti Android yang disahkan akan memerlukan pemaju untuk menyerahkan butiran identiti peribadi terus kepada Google. Oleh sebab pemaju aplikasi ini tidak bersetuju dengan keperluan ini, aplikasi ini tidak akan berfungsi lagi pada peranti Android yang disahkan selepas masa tersebut.</string>
+    <string name="dialog_more_info">Butiran</string>
+    <string name="solution">Penyelesaian</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Santali (sat) -->
+<resources>
+    <string name="dialog_Warning">ᱜᱩᱜᱞ ᱮᱱ ᱟᱠᱟᱱ ᱠᱮᱫᱟ ᱡᱮ 2026/2027 ᱞᱮᱠᱟᱱ, ᱥᱟᱨᱴᱤᱯᱷᱟᱭᱰ Android ᱦᱟᱹᱴᱤᱧᱥᱤᱧ ᱨᱮ ᱡᱚᱛᱚ ᱮᱯᱥᱤᱧ ᱠᱟᱹᱴᱤ ᱰᱮᱵᱷᱚᱞᱚᱯᱚᱨᱥᱤᱧ ᱵᱮᱪᱚᱬ Google ᱨᱮ ᱮᱢ ᱫᱟᱨᱮᱭᱟ। ᱱᱤᱛᱚᱜ ᱮᱯ ᱨᱮᱱ ᱰᱮᱵᱷᱚᱞᱚᱯᱚᱨᱥᱤᱧ ᱱᱚᱸᱰᱮ ᱟᱹᱠᱩᱣ ᱦᱩᱭᱩᱜ ᱜᱮ ᱠᱟᱱᱟ, ᱱᱤᱛᱚᱜ ᱮᱯ ᱱᱚᱸᱰᱮ ᱦᱩᱰᱤᱧ ᱠᱮᱨᱮ ᱞᱮᱠᱟᱱ ᱥᱟᱨᱴᱤᱯᱷᱟᱭᱰ Android ᱦᱟᱹᱴᱤᱧᱥᱤᱧ ᱨᱮ ᱠᱟᱢ ᱜᱮ ᱠᱟᱹᱢᱤ ᱠᱟᱱᱟ।</string>
+    <string name="dialog_more_info">ᱵᱮᱪᱚᱬ</string>
+    <string name="solution">ᱦᱟᱹᱛᱤᱭᱟᱹᱨ</string>
+</resources>

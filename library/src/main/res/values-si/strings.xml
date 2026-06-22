@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Sinhala (si) -->
+<resources>
+    <string name="dialog_Warning">Google නිවේදනය කර ඇත්තේ 2026/2027 සිට ආරම්භ වී, සහතික කළ Android උපාංගවල ඇති සියලුම යෙදුම් සඳහා සංවර්ධකයින් ඔවුන්ගේ පුද්ගලික අනන්‍යතා විස්තර කෙලින්ම Google වෙත ඉදිරිපත් කළ යුතු බවයි. මෙම යෙදුමේ සංවර්ධකයින් මෙම අවශ්‍යතාවට එකඟ නොවන බැවින්, එම කාලයෙන් පසු මෙම යෙදුම සහතික කළ Android උපාංගවල ක්‍රියා නොකරනු ඇත.</string>
+    <string name="dialog_more_info">විස්තර</string>
+    <string name="solution">විසඳුම</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Georgian (ka) -->
+<resources>
+    <string name="dialog_Warning">Google-ის განცხადებით, 2026/2027 წლიდან სერტიფიცირებულ Android მოწყობილობებზე ყველა აპლიკაციისთვის დეველოპერებს მოეთხოვებათ პირადი იდენტიფიკაციის დეტალების პირდაპირ Google-ისთვის წარდგენა. რადგან ამ აპლიკაციის დეველოპერები ამ მოთხოვნას არ ეთანხმებიან, ეს აპლიკაცია აღნიშნული პერიოდის შემდეგ სერტიფიცირებულ Android მოწყობილობებზე არ იმუშავებს.</string>
+    <string name="dialog_more_info">დეტალები</string>
+    <string name="solution">გადაწყვეტა</string>
+</resources>

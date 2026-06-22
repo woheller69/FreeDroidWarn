@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Maithili (mai) -->
+<resources>
+    <string name="dialog_Warning">Google घोषणा कएलनि अछि जे 2026/2027 सँ, प्रमाणित Android डिवाइसपर सभ एप्सक लेल डेवलपरकेँ अपन व्यक्तिगत पहचानक विवरण सीधे Google केँ प्रस्तुत करए पड़त। चूँकि एहि एपक डेवलपर एहि आवश्यकतासँ सहमत नहि छथि, ई एप ओहि समयक बाद प्रमाणित Android डिवाइसपर काज नहि करत।</string>
+    <string name="dialog_more_info">विवरण</string>
+    <string name="solution">समाधान</string>
+</resources>

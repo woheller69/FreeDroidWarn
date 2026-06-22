@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Malayalam (ml) -->
+<resources>
+    <string name="dialog_Warning">2026/2027 മുതൽ, സർട്ടിഫൈഡ് Android ഉപകരണങ്ങളിലെ എല്ലാ ആപ്പുകൾക്കും ഡെവലപ്പർമാർ തങ്ങളുടെ വ്യക്തിഗത ഐഡന്റിറ്റി വിശദാംശങ്ങൾ നേരിട്ട് Google-ന് സമർപ്പിക്കേണ്ടതുണ്ടെന്ന് Google പ്രഖ്യാപിച്ചിരിക്കുന്നു. ഈ ആപ്പിന്റെ ഡെവലപ്പർമാർ ഈ ആവശ്യകതയോട് യോജിക്കാത്തതിനാൽ, ആ സമയത്തിന് ശേഷം ഈ ആപ്പ് സർട്ടിഫൈഡ് Android ഉപകരണങ്ങളിൽ പ്രവർത്തിക്കില്ല.</string>
+    <string name="dialog_more_info">വിശദാംശങ്ങൾ</string>
+    <string name="solution">പരിഹാരം</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Kannada (kn) -->
+<resources>
+    <string name="dialog_Warning">2026/2027 ರಿಂದ, ಪ್ರಮಾಣೀಕೃತ Android ಸಾಧನಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಡೆವಲಪರ್‌ಗಳು ತಮ್ಮ ವೈಯಕ್ತಿಕ ಗುರುತಿನ ವಿವರಗಳನ್ನು ನೇರವಾಗಿ Google ಗೆ ಸಲ್ಲಿಸಬೇಕಾಗುತ್ತದೆ ಎಂದು Google ಘೋಷಿಸಿದೆ. ಈ ಅಪ್ಲಿಕೇಶನ್‌ನ ಡೆವಲಪರ್‌ಗಳು ಈ ಅವಶ್ಯಕತೆಗೆ ಒಪ್ಪದ ಕಾರಣ, ಆ ಸಮಯದ ನಂತರ ಈ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಮಾಣೀಕೃತ Android ಸಾಧನಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ.</string>
+    <string name="dialog_more_info">ವಿವರಗಳು</string>
+    <string name="solution">ಪರಿಹಾರ</string>
+</resources>

@@ -1,0 +1,36 @@
+# .github/workflows/coderabbit.yml
+language: "en-US"
+
+reviews:
+  # The review profile used in your previous run
+  profile: "ASSERTIVE"
+
+  # Disables the "Auto reviews are disabled" status comment
+  review_status: false
+
+  # Enable automatic reviews for these target branches
+  # Add or remove branch names/patterns as needed for your workflow
+  base_branches:
+    - "main"
+    - "master"
+    - "develop"
+    - "staging"
+    - "release/*"
+    
+  # High-level configuration
+  auto_review: true
+  high_level_summary: true
+  poem: true
+  
+  # Whether CodeRabbit should use the "Request Changes" PR state 
+  # or just leave comments. (false = just leave comments)
+  request_changes_workflow: false
+
+  # Configure inline PR comments
+  inline_comments:
+    # Set to true to allow CodeRabbit to post code review comments on the PR diff
+    enable: true
+
+chat:
+  # Allows you to chat with the bot by tagging @coderabbitai
+  auto_reply: true

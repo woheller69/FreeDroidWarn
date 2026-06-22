@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Filipino (fil) -->
+<resources>
+    <string name="dialog_Warning">Inanunsyo ng Google na, simula 2026/2027, kakailanganin ng lahat ng app sa mga certified Android device na isumite ng developer ang kanilang personal identity details direkta sa Google. Dahil hindi sumasang-ayon ang mga developer ng app na ito sa kahilingang ito, hindi na gagana ang app na ito sa mga certified Android device pagkatapos ng panahong iyon.</string>
+    <string name="dialog_more_info">Mga Detalye</string>
+    <string name="solution">Solusyon</string>
+</resources>

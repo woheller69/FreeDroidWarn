@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Gujarati (gu) -->
+<resources>
+    <string name="dialog_Warning">Google એ જાહેરાત કરી છે કે 2026/2027 થી, પ્રમાણિત Android ઉપકરણો પરની તમામ એપ્સ માટે ડેવલપરોએ તેમની વ્યક્તિગત ઓળખ વિગતો સીધી Google ને સબમિટ કરવી પડશે. આ એપ ના ડેવલપરો આ આવશ્યકતા સાથે સહમત ન હોવાથી, આ એપ તે સમય પછી પ્રમાણિત Android ઉપકરણો પર કાર્ય કરશે નહીં.</string>
+    <string name="dialog_more_info">વિગતો</string>
+    <string name="solution">સમાધાન</string>
+</resources>

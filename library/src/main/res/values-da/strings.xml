@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Danish (da) -->
+<resources>
+    <string name="dialog_Warning">Google har annonceret, at fra 2026/2027 vil alle apps på certificerede Android-enheder kræve, at udvikleren indsender personlige identitetsoplysninger direkte til Google. Da udviklerne af denne app ikke accepterer dette krav, vil appen ikke længere fungere på certificerede Android-enheder efter dette tidspunkt.</string>
+    <string name="dialog_more_info">Detaljer</string>
+    <string name="solution">Løsning</string>
+</resources>

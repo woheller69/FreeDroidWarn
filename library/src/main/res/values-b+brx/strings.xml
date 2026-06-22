@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Bodo (brx) -->
+<resources>
+    <string name="dialog_Warning">Google नि बावसे आगान केदेर 2026/2027 जों, सर्टिफाइड Android फोन्नाय थाखाय सोमावसे एपनि थाखाय डेभेलपरखौ सोलायथाव सानफ्रोमनि गेजेरनि बिजिर थाखाय सोरजिनायखौ थांखि Google खौ बिबुंथिनो हागोन। बे एपनि डेभेलपरफोर बे दाबिखौ मानोनो मोनहाखौ नाहाय बावसे, बे एप बे सम उनाव सर्टिफाइड Android फोन्नाय खावलायना नागिरब्ला।</string>
+    <string name="dialog_more_info">सोलायथाव</string>
+    <string name="solution">हायखिनाय</string>
+</resources>

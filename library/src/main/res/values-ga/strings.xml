@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Irish (ga) -->
+<resources>
+    <string name="dialog_Warning">D\'fhógair Google go mbeidh, ó 2026/2027 ar aghaidh, ar gach aip ar ghléasanna Android deimhnithe a cheangal ar fhorbróirí sonraí pearsanta aitheantais a chur isteach go díreach chuig Google. Ó nach n-aontaíonn forbróirí na haipe seo leis an gceanglas seo, ní bheidh an aip seo ag obair ar ghléasanna Android deimhnithe a thuilleadh tar éis an ama sin.</string>
+    <string name="dialog_more_info">Sonraí</string>
+    <string name="solution">Réiteach</string>
+</resources>

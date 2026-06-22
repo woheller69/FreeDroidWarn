@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Turkmen (tk) -->
+<resources>
+    <string name="dialog_Warning">Google 2026/2027-nji ýyldan başlap, sertifikatlaşdyrylan Android enjamlaryndaky ähli programmalar üçin döredijileriň şahsy şahsyýet maglumatlaryny göni Google-a tabşyrmagyny talap etjekdigini yglan etdi. Bu programmanyň döredijileri bu talaba razy bolmadyklary üçin, programma şondan soň sertifikatlaşdyrylan Android enjamlarynda işlemez.</string>
+    <string name="dialog_more_info">Jikme-jiklikler</string>
+    <string name="solution">Çözgüt</string>
+</resources>

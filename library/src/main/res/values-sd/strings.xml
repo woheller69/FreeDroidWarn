@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Sindhi (sd) -->
+<resources>
+    <string name="dialog_Warning">Google اعلان ڪيو آهي ته 2026/2027 کان، سرٽيفائيڊ Android ڊوائيسن تي سڀني ائپس لاءِ ڊولپرن کي پنهنجي ذاتي سڃاڻپ جا تفصيل سڌو Google کي پيش ڪرڻا پوندا. جيئن ته هن ائپ جا ڊولپر هن شرط سان متفق نه آهن، هي ائپ ان وقت کان پوءِ سرٽيفائيڊ Android ڊوائيسن تي ڪم نه ڪندو.</string>
+    <string name="dialog_more_info">تفصيل</string>
+    <string name="solution">حل</string>
+</resources>

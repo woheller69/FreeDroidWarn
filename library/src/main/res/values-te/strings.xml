@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Telugu (te) -->
+<resources>
+    <string name="dialog_Warning">2026/2027 నుండి, సర్టిఫైడ్ Android పరికరాల్లోని అన్ని యాప్‌లకు డెవలపర్లు తమ వ్యక్తిగత గుర్తింపు వివరాలను నేరుగా Google కి సమర్పించాలని Google ప్రకటించింది. ఈ యాప్ యొక్క డెవలపర్లు ఈ అవసరానికి అంగీకరించనందున, ఆ సమయం తర్వాత ఈ యాప్ సర్టిఫైడ్ Android పరికరాల్లో పని చేయదు.</string>
+    <string name="dialog_more_info">వివరాలు</string>
+    <string name="solution">పరిష్కారం</string>
+</resources>

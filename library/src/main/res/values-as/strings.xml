@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Assamese (as) -->
+<resources>
+    <string name="dialog_Warning">Google এ ঘোষণা কৰিছে যে 2026/2027 চনৰ পৰা, প্ৰমাণিত Android ডিভাইচত সকলো এপৰ বাবে ডেভেলপাৰসকলে তেওঁলোকৰ ব্যক্তিগত পৰিচয়ৰ বিৱৰণ পোনপটীয়াকৈ Google ক জমা দিব লাগিব। যিহেতু এই এপৰ ডেভেলপাৰসকলে এই প্ৰয়োজনীয়তাত সন্মত নহয়, এই এপটো সেই সময়ৰ পিছত প্ৰমাণিত Android ডিভাইচত কাম নকৰিব।</string>
+    <string name="dialog_more_info">বিৱৰণ</string>
+    <string name="solution">সমাধান</string>
+</resources>

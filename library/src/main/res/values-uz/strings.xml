@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Uzbek (uz) -->
+<resources>
+    <string name="dialog_Warning">Google 2026/2027-yildan boshlab sertifikatlangan Android qurilmalaridagi barcha ilovalar uchun ishlab chiquvchilar o‘zlarining shaxsiy identifikatsiya ma’lumotlarini bevosita Google’ga taqdim etishlari shart bo‘lishini e’lon qildi. Bu ilova ishlab chiquvchilari bu talabga rozi bo‘lmagani uchun, ilova shu vaqtdan keyin sertifikatlangan Android qurilmalarida ishlamaydi.</string>
+    <string name="dialog_more_info">Tafsilotlar</string>
+    <string name="solution">Yechim</string>
+</resources>

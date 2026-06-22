@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Estonian (et) -->
+<resources>
+    <string name="dialog_Warning">Google on teatanud, et alates 2026/2027. aastast nõuavad kõik sertifitseeritud Android-seadmete rakendused, et arendaja esitaks isikuandmed otse Google\'ile. Kuna selle rakenduse arendajad ei nõustu selle nõudega, ei tööta see rakendus pärast seda aega enam sertifitseeritud Android-seadmetes.</string>
+    <string name="dialog_more_info">Rohkem infot</string>
+    <string name="solution">Lahendus</string>
+</resources>

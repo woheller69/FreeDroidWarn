@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Lithuanian (lt) -->
+<resources>
+    <string name="dialog_Warning">Google paskelbė, kad nuo 2026/2027 m. visoms programoms sertifikuotuose Android įrenginiuose kūrėjai turės pateikti savo asmens tapatybės duomenis tiesiai Google. Kadangi šios programos kūrėjai nesutinka su šiuo reikalavimu, programa po šio laiko nebeveiks sertifikuotuose Android įrenginiuose.</string>
+    <string name="dialog_more_info">Informacija</string>
+    <string name="solution">Sprendimas</string>
+</resources>

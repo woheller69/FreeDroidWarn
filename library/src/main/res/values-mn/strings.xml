@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Mongolian (mn) -->
+<resources>
+    <string name="dialog_Warning">Google 2026/2027 оноос эхлэн баталгаажсан Android төхөөрөмж дээрх бүх аппликейшнд хөгжүүлэгчид хувийн мэдээллийн дэлгэрэнгүй мэдээллийг шууд Google-д илгээхийг шаардах болно гэж зарласан. Энэ аппликейшний хөгжүүлэгчид энэ шаардлагыг хүлээж аваагүй тул энэ аппликейшн тэр цаг хугацааны дараа баталгаажсан Android төхөөрөмж дээр ажиллахгүй болно.</string>
+    <string name="dialog_more_info">Дэлгэрэнгүй</string>
+    <string name="solution">Шийдэл</string>
+</resources>

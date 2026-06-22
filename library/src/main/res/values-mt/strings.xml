@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Maltese (mt) -->
+<resources>
+    <string name="dialog_Warning">Google ħabbar li, mill-2026/2027 \'il quddiem, l-apps kollha fuq apparati Android iċċertifikati se jkunu jeħtieġu li l-iżviluppatur jissottometti dettalji tal-identità personali direttament lil Google. Peress li l-iżviluppaturi ta\' din l-app ma jaqblux ma\' dan ir-rekwiżit, din l-app mhux se tibqa\' taħdem fuq apparati Android iċċertifikati wara dak iż-żmien.</string>
+    <string name="dialog_more_info">Aktar informazzjoni</string>
+    <string name="solution">Soluzzjoni</string>
+</resources>

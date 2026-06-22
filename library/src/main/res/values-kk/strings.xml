@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Kazakh (kk) -->
+<resources>
+    <string name="dialog_Warning">Google 2026/2027 жылдан бастап сертификатталған Android құрылғыларындағы барлық қолданбалар үшін әзірлеушілерден жеке басын куәландыратын мәліметтерді тікелей Google-ге беруді талап ететінін мәлімдеді. Бұл қолданбаның әзірлеушілері осы талапқа келіспегендіктен, қолданба сол уақыттан кейін сертификатталған Android құрылғыларында жұмыс істемейді.</string>
+    <string name="dialog_more_info">Толығырақ</string>
+    <string name="solution">Шешім</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale: Vietnamese (vi) -->
+<resources>
+    <string name="dialog_Warning">Google đã thông báo rằng, bắt đầu từ năm 2026/2027, tất cả ứng dụng trên các thiết bị Android được chứng nhận sẽ yêu cầu nhà phát triển gửi trực tiếp thông tin nhận dạng cá nhân cho Google. Vì các nhà phát triển của ứng dụng này không đồng ý với yêu cầu này, ứng dụng sẽ không còn hoạt động trên các thiết bị Android được chứng nhận sau thời điểm đó.</string>
+    <string name="dialog_more_info">Chi tiết</string>
+    <string name="solution">Giải pháp</string>
+</resources>
